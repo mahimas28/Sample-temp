@@ -1,0 +1,160 @@
+#title{
+/*    background-color: #ff4c68;*/
+    background-image: linear-gradient(to right,#ff6580  , #fa9366);
+}
+#title h1{
+font-family: "Montserrat";
+    font-size: 3.1rem;
+    line-height: 1.5;
+/*    font-weight: bold;*/
+    font-weight:bolder;
+    color: white;
+}
+h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+p{
+    color: grey;
+}
+.container-fluid{
+    padding: 3% 15%;
+    padding-bottom: 120px;
+}
+body{
+    font-family: "Montserrat";
+}
+
+/*Navbar*/
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-family:  "Montserrat";
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/*download button*/
+.download-btn{
+    margin: 5% 3% 5%;
+}
+.iphone-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/*features*/
+#features{
+ padding: 7% 15%;
+ position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    
+}
+.icon{
+    color: #ff6580;
+    margin-bottom: 1rem;
+    
+}
+.icon:hover{
+/*    color: #a74454;*/
+    color: #fa9366;
+}
+#testimonials{
+    background-color: #ff6580;
+   
+    text-align: center;
+    color: white;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ff6580;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+  }
+.carousel-item{
+     padding: 7% 15%; 
+}
+
+/*Pricing section*/
+#pricing{
+    padding: 100px;
+    text-align-last: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/*cta*/
+#cta{
+ background-image: linear-gradient(to right,#ff6580  , #fa9366);
+    text-align: center;
+        font-family: "Montserrat";
+    font-size: 3.1rem;
+    line-height: 1.5;
+/*    font-weight: bold;*/
+    font-weight:bolder;
+    color: white;
+    padding: 7% 15%;
+
+}
+#cta h3{
+     font-size: 3.1rem;
+    line-height: 1.5;
+/*    font-weight: bold;*/
+    font-weight:bolder;
+    color: white;
+}
+
+/*footer*/
+ 
+#footer{
+    text-align: center;
+    padding: 5%;
+}
+#footer p{
+/*    color: gray;*/
+    font-weight: 500;
+        font-family: "Montserrat";
+}
+@media (max-width:1028px ){
+    .iphone-img{
+        position: static;
+        transform: rotate(0);
+        
+    }
+    #title{
+        text-align: center;
+    }
+}
